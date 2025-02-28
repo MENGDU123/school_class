@@ -41,3 +41,5 @@ print(f"语文成绩:{chinese}")
 print(f"英语成绩:{english}")
 print(f"你的总分为:{sum:.1f}分,",end="")
 print(f"你的平均分为:{ave:.1f}分")
+
+exit()

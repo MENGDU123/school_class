@@ -16,4 +16,4 @@ while True:
 
 s = a * h / 2
 
-print("%8.2f"%s)
+print(f"三角形面积为:{s:.2f}")

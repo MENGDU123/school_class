@@ -42,3 +42,5 @@ print("kwymengdu","online",sep=".")
 for _ in range(10):
     print(".",end="")
     time.sleep(1)
+
+exit(0)
