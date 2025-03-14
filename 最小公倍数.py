@@ -15,6 +15,13 @@ while True:
         break
 
 n = 1
-while n / a != 0 or n / b != 0:
-    n = n + 1
-print(f"a和b的最小公倍数为{n}")
+# while n % a == 0 and n % b == 0:
+#     n = n + 1
+# print(f"a和b的最小公倍数为{n}")
+
+for _ in range(a * b):
+    if n % a == 0 and n % b == 0:
+        print(f"a和b的最小公倍数为{n}")
+        exit(0)
+    else:
+        n = n + 1
