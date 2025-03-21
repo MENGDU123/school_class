@@ -20,5 +20,12 @@
 #     s = s + i
 #
 # print(f"1+2+……+{n}={s}")
-for i in [1,0]:
-    print(i+1)
+# for i in [1,0]:
+#     print(i+1)
+y = 0
+
+for i in range(0, 10, 2):
+
+    y += i
+
+print(y)
