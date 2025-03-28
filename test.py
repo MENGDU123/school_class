@@ -22,10 +22,22 @@
 # print(f"1+2+……+{n}={s}")
 # for i in [1,0]:
 #     print(i+1)
-y = 0
+# y = 0
+#
+# for i in range(0, 10, 2):
+#
+#     y += i
+#
+# print(y)
 
-for i in range(0, 10, 2):
+def fun(x,y):
+    print("In fun:",x,y)
+    x = 1
+    y = 2 #局部函数x，y仅仅在函数中有x，y
+    return x
+    return y
 
-    y += i
-
-print(y)
+x = 100
+y = 200
+fun(x,y)
+print(x,y) #这里输出的是主程序的x，y
